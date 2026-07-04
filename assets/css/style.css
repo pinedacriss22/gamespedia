@@ -206,3 +206,109 @@ body{
 
 }
 
+.hero{
+
+    max-width:1400px;
+    height:650px;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    background-image:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.7)),
+    url("../img/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+    padding:70px;
+
+}
+
+.hero-content{
+
+    width:500px;
+
+}
+
+.tag{
+
+    color:var(--primary);
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+}
+
+.hero h2{
+
+    font-size:60px;
+
+    margin:20px 0;
+
+}
+
+.hero p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:linear-gradient(90deg,var(--secondary),var(--primary));
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.btn-secondary{
+
+    border:2px solid var(--primary);
+
+    color:white;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--primary);
+
+}
